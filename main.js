@@ -36,7 +36,7 @@ form_contact.addEventListener("submit",(e)=>{
    
     e.preventDefault()
    const input = form_contact.elements
-   const email = "eteban087@gmail.com"
+   const email = "estebanmarimon21@gmaiil.com"
    const data ={
     name: input.name.value,
     email: input.email.value,
