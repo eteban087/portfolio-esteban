@@ -36,7 +36,7 @@ form_contact.addEventListener("submit",(e)=>{
    
     e.preventDefault()
    const input = form_contact.elements
-   const email = "eteban087@gmail.com"
+   const email = "f0020e642a782c71b60060738de2ee 7f"
    const data ={
     name: input.name.value,
     email: input.email.value,
@@ -50,7 +50,7 @@ form_contact.addEventListener("submit",(e)=>{
         'Accept': 'application/json'
     },
     body: JSON.stringify({
-       data
+       data 
     })
 })
     .then(response => response.json())
