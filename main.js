@@ -49,23 +49,21 @@ form_contact.addEventListener("submit",(e)=>{
         'Accept': 'application/json'
     },
     body: JSON.stringify({
-        name: "FormSubmit",
-        message: "I'm from Devro LABS",
-        ...data
+        
+        data
     })
 })
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {
+        Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Your message has been sent',
+    showConfirmButton: false,
+    timer: 1500,
+    
+  })
+    })
     .catch(error => console.log(error));
     
 })
-
-
-// Swal.fire({
-//     position: 'top-end',
-//     icon: 'success',
-//     title: 'Your message has been sent',
-//     showConfirmButton: false,
-//     timer: 1500,
-    
-//   })
