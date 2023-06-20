@@ -36,7 +36,7 @@ form_contact.addEventListener("submit",(e)=>{
    
     e.preventDefault()
    const input = form_contact.elements
-   const email = "estebanmarimon21@gmaiil.com"
+   const email = "estebanmarimon556@gmail.com"
    const data ={
     name: input.name.value,
     email: input.email.value,
@@ -63,6 +63,8 @@ form_contact.addEventListener("submit",(e)=>{
             timer: 1500,
             
           })
+
+          return data;
     })
     .catch(error => console.log(error));
     
