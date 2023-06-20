@@ -42,7 +42,7 @@ form_contact.addEventListener("submit",(e)=>{
     message: input.message.value
    }
 
-   fetch("https://formsubmit.co/ajax/9d26978aa273e75f8c447261811d25c5", {
+   fetch("https://formsubmit.co/ajax/estebanmarimon21@gmail.com", {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
