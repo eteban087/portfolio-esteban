@@ -32,40 +32,40 @@ const form_contact = document.getElementById("form_contact");
 const btn_send = document.getElementById("btn_send");
 
 
-// form_contact.addEventListener("submit",(e)=>{
+form_contact.addEventListener("submit",(e)=>{
    
-//     e.preventDefault()
-//    const input = form_contact.elements
-//    const data ={
-//     name: input.name.value,
-//     email: input.email.value,
-//     message: input.message.value
-//    }
+    e.preventDefault()
+   const input = form_contact.elements
+   const data ={
+    name: input.name.value,
+    email: input.email.value,
+    message: input.message.value
+   }
 
-//    fetch("https://formsubmit.co/ajax/estebanmarimon556@gmail.com", {
-//     method: "POST",
-//     headers: { 
-//         'Content-Type': 'application/json',
-//         'Accept': 'application/json'
-//     },
-//     body: JSON.stringify({
+   fetch("https://formsubmit.co/ajax/estebanmarimon556@gmail.com", {
+    method: "POST",
+    headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    },
+    body: JSON.stringify({
         
-//         data
-//     })
-// })
-//     .then(response => response.json())
-//     .then(data => {
-//         Swal.fire({
-//     position: 'top-end',
-//     icon: 'success',
-//     title: 'Your message has been sent',
-//     showConfirmButton: false,
-//     timer: 1500,
+        data
+    })
+})
+    .then(response => response.json())
+    .then(data => {
+        Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Your message has been sent',
+    showConfirmButton: false,
+    timer: 1500,
     
-//   })
+  })
 
-//   console.log(data)
-//     })
-//     .catch(error => console.log(error));
+  console.log(data)
+    })
+    .catch(error => console.log(error));
     
-// })
+})
