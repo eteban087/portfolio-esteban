@@ -36,38 +36,36 @@ form_contact.addEventListener("submit",(e)=>{
    
     e.preventDefault()
    const input = form_contact.elements
-   const email = "f0020e642a782c71b60060738de2ee 7f"
    const data ={
     name: input.name.value,
     email: input.email.value,
     message: input.message.value
    }
 
-   fetch(`https://formsubmit.co/ajax/${email}`, {
+   fetch("https://formsubmit.co/ajax/estebanmarimon21@gmail.com", {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     },
     body: JSON.stringify({
-       data 
+        name: "FormSubmit",
+        message: "I'm from Devro LABS",
+        ...data
     })
 })
     .then(response => response.json())
-    .then(data => {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Your message has been sent',
-            showConfirmButton: false,
-            timer: 1500,
-            
-          })
-
-          return data;
-    })
+    .then(data => console.log(data))
     .catch(error => console.log(error));
     
 })
 
 
+// Swal.fire({
+//     position: 'top-end',
+//     icon: 'success',
+//     title: 'Your message has been sent',
+//     showConfirmButton: false,
+//     timer: 1500,
+    
+//   })
