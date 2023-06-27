@@ -630,7 +630,7 @@ textarea{
     grid-column-start: 1;
     grid-column-end: 3;
     flex-direction: column;
-   
+    align-items: flex-start;
     width: 100%;
    
   }

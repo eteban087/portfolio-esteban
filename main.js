@@ -64,8 +64,10 @@ form_contact.addEventListener("submit",(e)=>{
     
   })
 
-  console.log(data)
+  
     })
     .catch(error => console.log(error));
-    
+   setTimeout(()=>{
+    e.target.reset()
+   },3000)
 })
