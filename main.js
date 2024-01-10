@@ -22,7 +22,7 @@ if (claro) {
 // ================= funcion para cambiar color a textos
 function cambiarColorTexto(color) {
   const elementosTexto = document.querySelectorAll(
-    "p, h1, h2, h3, h4, h5, h6, a, li, td, th"
+    "p, h1, h2, h3, h4, h5, h6, span, a, li, td, th"
   );
 
   elementosTexto.forEach((elemento) => {
