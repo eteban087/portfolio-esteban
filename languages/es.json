@@ -1,0 +1,68 @@
+{
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de mí",
+      "projects": "Proyectos",
+      "contact": "Contáctame"
+    },
+    "home": {
+      "title": "¡Hola! Soy un Desarrollador Full Stack",
+      "goal": "Mi objetivo es unirme a una empresa líder en la industria donde pueda aplicar mi experiencia y conocimiento para crear experiencias web excepcionales.",
+      "downloadCV": "Descargar CV"
+    },
+    "skills": {
+      "title": "Mis habilidades"
+      
+    },
+    "about": {
+      "title": "Acerca de mí",
+      "description": "Apasionado desarrollador web con amor por la tecnología, buscando oportunidades para ganar experiencia como desarrollador full-stack. Tengo experiencia con herramientas de desarrollo web de última generación y poseo fuertes habilidades de colaboración."
+    },
+    "projects": {
+      "title": "Proyectos"
+     
+    },
+
+    "petBlog": {
+      "name": "Blog de Mascotas",
+      "description": "Un blog de consejos para mascotas, diseñado para ayudar a los dueños de mascotas a brindar el cuidado adecuado y satisfacer sus necesidades individuales."
+      
+    },
+    "galaxyCuriosities": {
+      "name": "Curiosidades de la Galaxia",
+      "description": "Explora y descubre detalles asombrosos sobre el espacio exterior con frases intrigantes y educativas."
+    },
+    "weatherApp": {
+      "name": "Aplicación del Clima",
+      "description": "Una herramienta útil que proporciona información precisa y actualizada sobre las condiciones climáticas de cualquier ciudad o país."
+    },
+    "eCommerce": {
+      "name": "E-commerce",
+      "description": "Una experiencia interactiva que te sumerge en el emocionante mundo de las compras en línea."
+    },
+    "crudUsers": {
+      "name": "CRUD de Usuarios",
+      "description": "Una página web con funcionalidad CRUD para usuarios utilizando la biblioteca React."
+    },
+    "pokedex": {
+      "name": "Pokedex",
+      "description": "Una aplicación desarrollada con React que permite a los usuarios buscar y filtrar Pokémon por nombre y tipo."
+    },
+    "contact": {
+      "title": "Contáctame",
+      "getInTouch": "Ponte en contacto",
+      "contactText": "Soy muy accesible y me encantaría hablar contigo. No dudes en llamarme, enviarme un correo electrónico, seguirme en redes sociales o simplemente completar el formulario de consulta.",
+      "phoneNumber": "+57 - 3169176878",
+      "email": "estebanmarimon998@gmail.com",
+      "sendMessage": "Enviar Mensaje"
+    },
+    "footer": {
+      "menu": {
+        "home": "Inicio",
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "contact": "Contáctame"
+      }
+    }
+  }
+  

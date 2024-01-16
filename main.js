@@ -7,6 +7,30 @@ const ls = localStorage;
 const claro = ls.getItem("lightMode");
 const position = ls.getItem("position");
 
+// ===========================cambio de Idiomas
+const flags_element = document.getElementById("flags");
+
+flags_element.addEventListener("click", (e) => {
+  changeLeguague(e.target.parentElement.dataset.lenguage);
+});
+
+const texsToChange = document.querySelectorAll("[data-section]");
+
+const changeLeguague = async (lenguague) => {
+  const requestJson = await fetch(`./languages/${lenguague}.json`);
+
+  const text = await requestJson.json();
+
+  for (let texToChange of texsToChange) {
+    const section = texToChange.dataset.section;
+    const value = texToChange.dataset.value;
+
+    texToChange.innerHTML = text[section][value];
+  }
+};
+
+// ====================================
+
 if (position) {
   circle.classList.add(position);
 }

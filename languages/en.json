@@ -1,0 +1,66 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About me",
+      "projects": "Projects",
+      "contact": "Contact me"
+    },
+    "home": {
+      "title": "Hi! I am a Full Stack Developer",
+      "goal": "My goal is to join a leading company in the industry where I can apply my experience and knowledge to create exceptional web experiences.",
+      "downloadCV": "Download CV"
+    },
+    "skills": {
+      "title": "My Skills"
+     
+    },
+    "about": {
+      "title": "About me",
+      "description": "Passionate web developer with a love for technology, seeking opportunities to gain experience as a full-stack developer. I have experience with cutting-edge web development tools and possess strong collaboration skills."
+    },
+    "projects": {
+      "title": "Projects"
+      
+    },
+    "petBlog": {
+      "name": "Pet Blog",
+      "description": "A blog of tips for pets, designed to help pet owners provide proper care and meet their individual needs."
+    },
+    "galaxyCuriosities": {
+      "name": "Curiosities of the Galaxy",
+      "description": "Explore and discover astonishing details about outer space with intriguing and educational phrases."
+    },
+    "weatherApp": {
+      "name": "Weather App",
+      "description": "A useful tool providing accurate and up-to-date information about the weather conditions of any city or country."
+    },
+    "eCommerce": {
+      "name": "E-commerce",
+      "description": "An interactive experience that immerses you in the exciting world of online shopping."
+    },
+    "crudUsers": {
+      "name": "CRUD Users",
+      "description": "A web page with CRUD functionality for users using the React library."
+    },
+    "pokedex": {
+      "name": "Pokedex",
+      "description": "An application developed with React allowing users to search and filter Pokémon by name and type."
+    },
+    "contact": {
+      "title": "Contact me",
+      "getInTouch": "Get in touch",
+      "contactText": "I’m very approachable and would love to speak to you. Feel free to call, send me an email, follow me on social media, or simply complete the enquiry form.",
+      "phoneNumber": "+57 - 3169176878",
+      "email": "estebanmarimon998@gmail.com",
+      "sendMessage": "Send Message"
+    },
+    "footer": {
+      "menu": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "contact": "Contact me"
+      }
+    }
+  }
+  

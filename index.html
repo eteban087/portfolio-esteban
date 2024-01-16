@@ -764,22 +764,37 @@
             <h1>Este<span class="hi">ban M</span></h1>
         </div>
 
+
         <ul class="menu menu_">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact me</a></li>
+          
+            <li><a data-section="nav" data-value="home" href="#home">Home</a></li>
+            <li><a data-section="nav" data-value="about" href="#about">About me</a></li>
+            <li><a data-section="nav" data-value="projects" href="#projects">Projects</a></li>
+            <li><a data-section="nav" data-value="contact" href="#contact">Contact me</a></li>
             <li class="dark_ligth">
                 <i class="fa-solid fa-moon"></i>
                 <i class="fa-solid fa-sun"></i>
                 
                 <div class="circle"></div>
             </li>
+
+            <li>
+                <div id ="flags" class="flags">
+                    <div class="flags_item" data-lenguage="es">
+                        <img class="flags_img" src="./img/es.svg" alt="">
+                    </div>
+                     <div class="flags_item" data-lenguage="en">
+                        <img class="flags_img" src="./img/us.svg" alt="">
+                    </div>
+                </div>
+            </li>
         </ul>
 
         <div id="container_bar" class="container_bar">
             <i class="fa-solid fa-bars fa-2x"></i>
         </div>
+        
+       
 
     </nav>
 
@@ -790,16 +805,16 @@
 
             <div class="container_info_home">
                 <div class="contaiener_title">
-                    <h2 class="title"><span class="hi">Hi!</span> I'am Full Stack developer</h2>
+                    <h2 data-section="home" data-value="title" class="title"><span class="hi">Hi!</span> I am Full Stack developer</h2>
                 </div>
 
                 <div class="container_info">
-                    <p>My goal is to join a leading company in the industry where I can apply my experience and
+                    <p data-section="home" data-value="goal">My goal is to join a leading company in the industry where I can apply my experience and
                         knowledge to create exceptional web experiences.</p>
                 </div>
 
                 <div class="container_btn_cv">
-                    <a href="/cv/CV_Esteban Marimon.pdf" download="Cv Esteban Marimon" class="btn_cv">Download
+                    <a data-section="home" data-value="downloadCV" href="/cv/CV_Esteban Marimon.pdf" download="Cv Esteban Marimon" class="btn_cv">Download
                         CV</a>
                 </div>
             </div>
@@ -816,7 +831,7 @@
         <!-- =================sekills section========================== -->
 
         <section class="skills">
-            <h2>My skills</h2>
+            <h2 data-section="skills" data-value="title">My skills</h2>
             <div class="container_skills">
                 <div class="card_skill">
                     <i class="fa-brands fa-html5 fa-4x"></i>
@@ -851,10 +866,10 @@
         <section data-aos="fade-up" data-aos-duration="2000" id="about" class="about">
 
             <div data-aos="fade-up" data-aos-duration="1000" class="container_info_abot">
-                <h2>About<span class="hi"> me</span></h2>
-                <p>Passionate web developer with a love for technology,
+                <h2 data-section="about" data-value="title">About<span class="hi"> me</span></h2>
+                <p data-section="about" data-value="description">Passionate web developer with a love for technology,
                     I am seeking opportunities to gain experience
-                    as a frontend developer.
+                    as a full-stack developer.
 
                     I have experience with cutting-edge web development tools,
                     capable of effective self-management in independent projects,
@@ -866,11 +881,11 @@
 
         <!-- =====================projecst sections======================== -->
         <section id="projects" class="proyects">
-            <h2>Projects</h2>
+            <h2 data-section="projects" data-value="title">Projects</h2>
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2>Pet <span class="hi">Blog</span></h2>
-                    <p>A blog of tips for pets, specifically designed to help pet owners provide proper care and meet
+                    <h2 data-section="petBlog" data-value="name">Pet <span class="hi">Blog</span></h2>
+                    <p data-section="petBlog" data-value="description">A blog of tips for pets, specifically designed to help pet owners provide proper care and meet
                         their individual needs. These blogs focus on providing practical, helpful, and reliable
                         information on a wide variety of topics related to pets.</p>
                     <a href="https://mi-blog-mascotas.netlify.app" target="_blank" class="btn_project">See project</a>
@@ -882,8 +897,8 @@
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2><span class="hi">Curiosities</span> of the galaxy</h2>
-                    <p>With this application, you will be able to explore and discover astonishing and little-known
+                    <h2 data-section="galaxyCuriosities" data-value="name"><span class="hi">Curiosities</span> of the galaxy</h2>
+                    <p data-section="galaxyCuriosities" data-value="description" >With this application, you will be able to explore and discover astonishing and little-known
                         details about outer space. Every time you open the app, you will be surprised with a new
                         intriguing and educational phrase that will invite you to reflect on the immensity and
                         complexity of the universe.</p>
@@ -898,8 +913,8 @@
 
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2>Weather<span class="hi">App</span></h2>
-                    <p>The weather application is a useful and convenient tool that provides you with accurate and
+                    <h2 data-section="weatherApp" data-value="name">Weather<span class="hi">App</span></h2>
+                    <p data-section="galaxyCuriosities" data-value="description">The weather application is a useful and convenient tool that provides you with accurate and
                         up-to-date information about the weather conditions of any city or country you wish to know
                         about.
                         When you open the application, simply enter the name of the city or country you are interested
@@ -915,8 +930,8 @@
 
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2><span class="hi">Ecom</span>merce</h2>
-                    <p>
+                    <h2 data-section="eCommerce" data-value="name"><span class="hi">Ecom</span>merce</h2>
+                    <p data-section="eCommerce" data-value="description">
                         The e-commerce simulation application is an interactive experience that immerses you in the
                         exciting world of online shopping. With this app, you can explore a wide selection of
                         fashionable sweaters and sweatshirts, add products to your virtual shopping cart, and simulate
@@ -932,8 +947,8 @@
 
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2><span class="hi">Crud</span>-users</h2>
-                    <p>
+                    <h2 data-section="crudUsers" data-value="name"><span class="hi">Crud</span>-users</h2>
+                    <p data-section="crudUsers" data-value="description">
                         The application I developed is a web page with CRUD (Create, Read, Update, Delete) functionality
                         for users using the React library. This application allows storing and managing user information
                         in a database.</p>
@@ -950,8 +965,8 @@
 
             <div data-aos="fade-up" data-aos-duration="1000" class="container_proyects">
                 <div class="container_info_proyect">
-                    <h2><span class="hi">Poke</span>dex</h2>
-                    <p>
+                    <h2 data-section="pokedex" data-value="name"><span class="hi">Poke</span>dex</h2>
+                    <p data-section="pokedex" data-value="description">
                         The application I developed with React allows users to search and filter Pokémon by name and
                         type. Users can enter the name of a specific Pokémon or select a Pokémon type to view filtered
                         results.
@@ -971,13 +986,13 @@
         </section>
 
         <section id="contact" class="contact">
-            <h2>Contact me </h2>
+            <h2 data-section="contact" data-value="title">Contact me </h2>
             <div data-aos="fade-up" data-aos-duration="1000" class="container_contact">
 
                 <div class="info_contact">
                     <div class="info_contact_text">
-                        <h2>Get in touch</h2>
-                        <p>I’m very approachable and would love to speak to you. Feel free to call, send me an email .
+                        <h2 data-section="contact" data-value="getInTouch">Get in touch</h2>
+                        <p data-section="contact" data-value="contactText">I’m very approachable and would love to speak to you. Feel free to call, send me an email .
                             Follow me in social media or simply complete the enquiry form.</p>
                     </div>
 
@@ -999,7 +1014,7 @@
                 </div>
 
                 <form id="form_contact" class="form_contact">
-                    <h2>Send me a message</h2>
+                    <h2 data-section="contact" data-value="sendMessage">Send me a message</h2>
                     <input id="name" placeholder="Name" required type="text">
                     <input id="email" placeholder="Email" required type="email">
                     <textarea required id="message" placeholder="Your message" cols="30" rows="10"></textarea>
